@@ -26,6 +26,10 @@ const theme = {
     menuIconOrange: "#FA9D12",
     attendenceItemBackground: "#EBF9EE", //green
     attendenceItemText: "#34C759",
+    timeFrameText: "#9AA0A6",
+    timeFrameTextDark: "#F8F8F8",
+    timeFrameBgColor: "#FFFFFF",
+    timeFrameBgColorDark: "#0E1013",
   },
   dark: {
     theme: "dark",
@@ -54,6 +58,10 @@ const theme = {
     menuIconOrange: "#FB9E12",
     attendenceItemBackground: "#282A2D", //green
     attendenceItemText: "#34C759",
+    timeFrameText: "#9AA0A6",
+    timeFrameTextDark: "#FFFFFF",
+    timeFrameBgColor: "#202124",
+    timeFrameBgColorDark: "#3C4043",
   },
 };
 
