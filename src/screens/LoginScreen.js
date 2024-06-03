@@ -54,7 +54,7 @@ const LoginScreen = ({ navigation }) => {
           inputs.email == userData.email &&
           inputs.password == userData.password
         ) {
-          navigation.navigate("Dashboard");
+          navigation.navigate("DashboardScreen");
           AsyncStorage.setItem(
             "userData",
             JSON.stringify({ ...userData, loggedIn: true })

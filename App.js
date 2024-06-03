@@ -15,6 +15,7 @@ import OnBoardingTwoScreen from "./src/screens/OnBoardingTwoScreen";
 import OnBoardingThreeScreen from "./src/screens/OnBoardingThreeScreen";
 import LoginScreen from "./src/screens/LoginScreen";
 import RegistrationScreen from "./src/screens/RegistrationScreen";
+import DashboardScreen from "./src/screens/DashboardScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -27,7 +28,7 @@ const App = () => {
     systemColor = true;
   }
 
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   useEffect(() => {
     const listener = EventRegister.addEventListener("ChangeTheme", (data) => {
       setDarkMode(data);
@@ -59,6 +60,7 @@ const App = () => {
             name="RegistrationScreen"
             component={RegistrationScreen}
           />
+          <Stack.Screen name="DashboardScreen" component={DashboardScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     </themeContext.Provider>
