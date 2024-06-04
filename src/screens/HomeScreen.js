@@ -96,6 +96,7 @@ const HomeScreen = ({ navigation }) => {
                 icon="text-box-outline"
                 iconColor={theme.menuIconGreen}
                 text="Payroll"
+                onPress={() => console.log("Payroll button Pressed")}
               />
               <MenuButton
                 icon="hand-coin-outline"
@@ -107,36 +108,37 @@ const HomeScreen = ({ navigation }) => {
                 icon="chat-outline"
                 iconColor={theme.menuIconOrange}
                 text="Counseling"
-                onPress={() => navigation.navigate("Counseling")}
+                onPress={() => console.log("Counseling button Pressed")}
               />
               <MenuButton
                 icon="file-document-edit-outline"
                 iconColor={theme.menuIconGreen}
                 text="Time Off"
-                onPress={() => navigation.navigate("TimeOffScreen")}
+                onPress={() => console.log("Time Off button Pressed")}
               />
               <MenuButton
                 icon="calendar-month-outline"
                 iconColor={theme.menuIconRed}
                 text="Calendar"
-                onPress={() => navigation.navigate("CalendarScreen")}
+                onPress={() => console.log("Calendar button Pressed")}
               />
               <MenuButton
                 icon="timer-outline"
                 iconColor={theme.menuIconGreen}
                 text="Overtime"
-                onPress={() => navigation.navigate("Overtime")}
+                onPress={() => console.log("Overtime button Pressed")}
               />
               <MenuButton
                 icon="close-circle"
                 iconColor={theme.menuIconRed}
                 text="Resign"
-                onPress={() => navigation.navigate("ResignScreen")}
+                onPress={() => console.log("Resign button Pressed")}
               />
               <MenuButton
                 icon="dots-horizontal"
                 iconColor={theme.color}
                 text="Other"
+                onPress={() => console.log("Other button Pressed")}
               />
             </View>
           </View>

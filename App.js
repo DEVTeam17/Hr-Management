@@ -21,6 +21,8 @@ import AnalyticScreen from "./src/screens/AnalyticScreen";
 import AttendenceScreen from "./src/screens/AttendenceScreen";
 import AttendenceSuccessScreen from "./src/screens/AttendenceSuccessScreen";
 import ActivityScreen from "./src/screens/ActivityScreen";
+import PaySlipPinScreen from "./src/screens/PaySlipPinScreen";
+import SalarySlipScreen from "./src/screens/SalarySlipScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -74,6 +76,8 @@ const App = () => {
             component={AttendenceSuccessScreen}
           />
           <Stack.Screen name="ActivityScreen" component={ActivityScreen} />
+          <Stack.Screen name="PaySlipPinScreen" component={PaySlipPinScreen} />
+          <Stack.Screen name="SalarySlipScreen" component={SalarySlipScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     </themeContext.Provider>

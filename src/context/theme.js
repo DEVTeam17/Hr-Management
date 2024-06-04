@@ -33,6 +33,7 @@ const theme = {
     timeFrameBgColor: "#FFFFFF",
     timeFrameBgColorDark: "#0E1013",
     iconBG: "#101010",
+    salarySlipContainer: "#0E1013",
   },
   dark: {
     theme: "dark",
@@ -68,6 +69,7 @@ const theme = {
     timeFrameBgColor: "#202124",
     timeFrameBgColorDark: "#3C4043",
     iconBG: "#101010",
+    salarySlipContainer: "#202124",
   },
 };
 

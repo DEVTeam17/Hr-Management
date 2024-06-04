@@ -145,7 +145,7 @@ const LoginScreen = ({ navigation }) => {
             password
           />
           <Text
-            onPress={() => navigation.navigate("RegisterScreen")}
+            onPress={() => navigation.navigate("RegistrationScreen")}
             style={{
               color: theme.color,
               fontWeight: "bold",
