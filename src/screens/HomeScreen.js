@@ -114,7 +114,7 @@ const HomeScreen = ({ navigation }) => {
                 icon="file-document-edit-outline"
                 iconColor={theme.menuIconGreen}
                 text="Time Off"
-                onPress={() => console.log("Time Off button Pressed")}
+                onPress={() => navigation.navigate("TimeOffScreen")}
               />
               <MenuButton
                 icon="calendar-month-outline"

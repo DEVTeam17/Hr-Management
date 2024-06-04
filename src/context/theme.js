@@ -34,6 +34,9 @@ const theme = {
     timeFrameBgColorDark: "#0E1013",
     iconBG: "#101010",
     salarySlipContainer: "#0E1013",
+    inputField: "#000000",
+    inputText: "#9AA0A6",
+    borderColor: "blue",
   },
   dark: {
     theme: "dark",
@@ -70,6 +73,9 @@ const theme = {
     timeFrameBgColorDark: "#3C4043",
     iconBG: "#101010",
     salarySlipContainer: "#202124",
+    inputField: "#FFFFFF",
+    inputText: "#FFFFFF",
+    borderColor: "#FFFFFF",
   },
 };
 
