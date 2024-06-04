@@ -132,7 +132,7 @@ const HomeScreen = ({ navigation }) => {
                 icon="close-circle"
                 iconColor={theme.menuIconRed}
                 text="Resign"
-                onPress={() => console.log("Resign button Pressed")}
+                onPress={() => navigation.navigate("ResignScreen")}
               />
               <MenuButton
                 icon="dots-horizontal"
