@@ -6,6 +6,7 @@ const theme = {
     primaryBackground: "#FFFFFF",
     secondaryBackground: "#FFFFFF",
     ternaryBackground: "#F4F4F4",
+    sectionBG: "#FFFFFF",
     headerText: "#000000",
     paraText: "#80868B",
     skipText: "#2C2C2C",
@@ -30,6 +31,7 @@ const theme = {
     timeFrameTextDark: "#F8F8F8",
     timeFrameBgColor: "#FFFFFF",
     timeFrameBgColorDark: "#0E1013",
+    iconBG: "#101010",
   },
   dark: {
     theme: "dark",
@@ -38,6 +40,7 @@ const theme = {
     primaryBackground: "#000000",
     secondaryBackground: "#202124",
     ternaryBackground: "#282A2D",
+    sectionBG: "#17181B",
     headerText: "#FFFFFF",
     paraText: "#80868B",
     skipText: "#9AA0A6",
@@ -62,6 +65,7 @@ const theme = {
     timeFrameTextDark: "#FFFFFF",
     timeFrameBgColor: "#202124",
     timeFrameBgColorDark: "#3C4043",
+    iconBG: "#101010",
   },
 };
 

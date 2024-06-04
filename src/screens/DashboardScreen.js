@@ -28,7 +28,7 @@ const DashboardScreen = () => {
   } else {
     systemColor = true;
   }
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(systemColor);
   useEffect(() => {
     const listener = EventRegister.addEventListener("ChangeTheme", (data) => {
       setDarkMode(data);

@@ -16,6 +16,11 @@ import OnBoardingThreeScreen from "./src/screens/OnBoardingThreeScreen";
 import LoginScreen from "./src/screens/LoginScreen";
 import RegistrationScreen from "./src/screens/RegistrationScreen";
 import DashboardScreen from "./src/screens/DashboardScreen";
+import HomeScreen from "./src/screens/HomeScreen";
+import AnalyticScreen from "./src/screens/AnalyticScreen";
+import AttendenceScreen from "./src/screens/AttendenceScreen";
+import AttendenceSuccessScreen from "./src/screens/AttendenceSuccessScreen";
+import ActivityScreen from "./src/screens/ActivityScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -28,7 +33,7 @@ const App = () => {
     systemColor = true;
   }
 
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(systemColor);
   useEffect(() => {
     const listener = EventRegister.addEventListener("ChangeTheme", (data) => {
       setDarkMode(data);
@@ -61,6 +66,14 @@ const App = () => {
             component={RegistrationScreen}
           />
           <Stack.Screen name="DashboardScreen" component={DashboardScreen} />
+          <Stack.Screen name="HomeScreen" component={HomeScreen} />
+          <Stack.Screen name="AnalyticScreen" component={AnalyticScreen} />
+          <Stack.Screen name="AttendenceScreen" component={AttendenceScreen} />
+          <Stack.Screen
+            name="AttendenceSuccessScreen"
+            component={AttendenceSuccessScreen}
+          />
+          <Stack.Screen name="ActivityScreen" component={ActivityScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     </themeContext.Provider>
