@@ -13,7 +13,7 @@ import { Button, Icon } from "react-native-paper";
 import DateTimePickerModal from "react-native-modal-datetime-picker";
 import themeContext from "../context/themeContext";
 
-const TimeOffScreen = () => {
+const TimeOffScreen = ({ navigation }) => {
   const theme = useContext(themeContext);
   const [selectedButton, setSelectedButton] = useState(null);
   const [startDate, setStartDate] = useState(new Date());
@@ -303,6 +303,7 @@ const TimeOffScreen = () => {
         }}
         onPress={() => {
           console.log("Submit Time Off Request");
+          navigation.navigate("DashboardScreen");
         }}
       >
         Submit time off request

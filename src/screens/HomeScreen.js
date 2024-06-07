@@ -120,7 +120,7 @@ const HomeScreen = ({ navigation }) => {
                 icon="calendar-month-outline"
                 iconColor={theme.menuIconRed}
                 text="Calendar"
-                onPress={() => console.log("Calendar button Pressed")}
+                onPress={() => navigation.navigate("CalendarScreen")}
               />
               <MenuButton
                 icon="timer-outline"
@@ -138,7 +138,7 @@ const HomeScreen = ({ navigation }) => {
                 icon="dots-horizontal"
                 iconColor={theme.color}
                 text="Other"
-                onPress={() => console.log("Other button Pressed")}
+                onPress={() => navigation.navigate("TimelineCalendar")}
               />
             </View>
           </View>

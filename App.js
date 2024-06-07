@@ -26,6 +26,8 @@ import SalarySlipScreen from "./src/screens/SalarySlipScreen";
 import ResignScreen from "./src/screens/ResignScreen";
 import ResignFormScreen from "./src/screens/ResignFormScreen";
 import TimeOffScreen from "./src/screens/TimeOffScreen";
+import CalendarScreen from "./src/screens/CalendarScreen";
+import TimelineCalendar from "./src/screens/TimelineCalendar";
 
 const Stack = createNativeStackNavigator();
 
@@ -84,6 +86,8 @@ const App = () => {
           <Stack.Screen name="ResignScreen" component={ResignScreen} />
           <Stack.Screen name="ResignFormScreen" component={ResignFormScreen} />
           <Stack.Screen name="TimeOffScreen" component={TimeOffScreen} />
+          <Stack.Screen name="CalendarScreen" component={CalendarScreen} />
+          <Stack.Screen name="TimelineCalendar" component={TimelineCalendar} />
         </Stack.Navigator>
       </NavigationContainer>
     </themeContext.Provider>
